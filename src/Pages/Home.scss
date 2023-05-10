@@ -1,0 +1,30 @@
+.div{
+    width: 100%;
+    background-image: url(https://preview.colorlib.com/theme/ithost/img/bg.jpg.webp);
+    height: 835px;
+    display: flex;
+    &__text{
+        width: 900px;
+        padding: 250px 150px;
+        color: white;
+    }
+    & h2{
+        font-size: 70px;
+    }
+    & p{
+        margin-top: 20px;
+        font-size: 20px;
+    }
+    & button{
+        padding: 10px 30px;
+        border: none;
+        border-radius: 15px;
+        background-color: #EB2B63;
+        color: white;
+        font-size: 18px;
+        margin-top: 50px;
+    }
+    &__img{
+        padding: 300px 0;
+    }
+}
